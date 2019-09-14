@@ -19,3 +19,25 @@
 		var basketball = document.getElementById('basketball').selected;
 	});
 </script>
+
+const form = document.getElementById('info-form');
+
+form.addEventListener("submit", (e) => {
+	e.preventDefault();
+	
+	firebase.firestore.collection("userinfo").add({
+		firstname: firstname.value,
+		lastname: lastname.value,
+		email: email.value,
+		facebook: facebook.value,
+		instagram: instagram.value,
+		wechat: wechat.value,
+		english: english.selected,
+		math: math.selected,
+		science: science.selected,
+		soccer: soccer.selected,
+		basketball: basketball.selected
+	})	
+	
+	return false;
+});
