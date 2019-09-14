@@ -7,4 +7,8 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 
+app.post('/people', function (req, res) {
+	console.log(req.params)
+});
+
 app.listen(8080, function () { console.log("Listening")});
