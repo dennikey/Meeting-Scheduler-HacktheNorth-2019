@@ -17,7 +17,7 @@ function getVal()
 	var instagram = document.getElementById('instagram').value;
 	var wechat = document.getElementById('wechat').value;
 	
-	var english = document.getElementById('english').value;
+	var english = document.getElementById('english').selected;
 	var math = document.getElementById('math').value;
 	var science = document.getElementById('science').value;
 	
@@ -33,58 +33,52 @@ function getVal()
 <hr>
 <p><b>Name</b></p>
 
-<form>
+<form action="people" method="post">
   First Name: <br>
-  <input type = "text", name = "firstname" id="firstname"><br>
+  <input type = "text", name = "firstname" maxlength= "20" id="firstname"><br>
   Last Name: <br>
-  <input type = "text", name = "lastname" id="lastname"><br>
-</form>
+  <input type = "text", name = "lastname" maxlength= "20" id="lastname"><br>
 
 <hr>
 
 <p><b>Contact information</b></p>
 
-<form>
   Email: <br>
   <input type = "text", name = "email" id="email"><br>
   Phone Number: <br>
-  <input type = "number", name = "phonenumber" id="phonenumber"><br>
-</form>
+  <input type = "text", name = "phonenumber" maxlength= "10" id="phonenumber"><br>
+
+<hr>
 
 <p><b>Social Media Links </b></p>
 
-<form>
   Facebook: <br>
   <input type = "text", name = "facebook" id="facebook"><br>
   Instagram: <br>
   <input type = "text", name = "instagram" id="instagram"><br>
   Wechat: <br>
   <input type = "text", name = "wechat" id="wechat"><br>
-</form>
 
 <hr>
 
 <p><b>Interests</b></p>
+<p>Right click or hold down the control button to select multiple interests!</p>
 
-<form>
 Subjects: <br>
-<select>
+<select multiple name="subjects" size="3">
   <option value="english" id="english">English</option>
   <option value="math" id="math">Math</option>
   <option value="science" id="science">Science</option>
 </select>
 
-
 <br> Sports: <br>
-<select>
-<option value="soccer" id="soccer">Soccer</option>
-<option value="basketball" id="basketball">Basketball</option>
+<select multiple name="sports" size="2">
+  <option value="soccer" id="soccer">Soccer</option>
+  <option value="basketball" id="basketball">Basketball</option>
 </select>
-</form>
 
 <hr>
 
-<form action="people.html">
     <input type="submit" value="submit" />
 </form>
 
