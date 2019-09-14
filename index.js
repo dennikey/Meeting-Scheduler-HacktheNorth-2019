@@ -2,6 +2,12 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var bodyParser = require('body-parser');
+var admin = require('firebase-admin');
+export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/service-account-file.json"
+admin.initializeApp({
+  credential: admin.credential.applicationDefault(),
+  databaseURL: 'https://<DATABASE_NAME>.firebaseio.com'
+});
 
 // viewed at http://localhost:8080
 app.use(bodyParser.urlencoded({extended : true}));
