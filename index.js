@@ -10,14 +10,23 @@ app.get('/', function(req, res) {
     res.render('/index.html');
 });
 
-app.post('/people', function (req, res) {
+app.post('/people.html', function (req, res) {
 	// 1. Save data
 	// 2. show people page
 	console.log(req.body.firstname)
+	console.log(req.body.lastname)
+	console.log(req.body.email)
+	console.log(req.body.phonenumber)
+	console.log(req.body.facebook)
+	console.log(req.body.instagram)
+	console.log(req.body.wechat)
+	console.log(req.body.english)
+	console.log(req.body.math)
+	console.log(req.body.science)
+	console.log(req.body.soccer)
+	console.log(req.body.basketball)
 });
 
-app.post('/addfriend', function (req, res) {
-	console.log(req.body.firstname)
-});
 
-app.listen(8080, function () { console.log("Listening")});
+
+app.listen(8080);
