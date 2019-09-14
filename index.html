@@ -3,6 +3,22 @@
 <head>
 <title>Welcome to Wloo Connect!</title>
 </head>
+
+<script>
+function getVal()
+{
+	var firstname = document.getElementById('firstname').value;
+	var lastname = document.getElementById('lastname').value;
+	
+	var email = document.getElementById('email').value;
+	var phonenumber = document.getElementById('phonenumber').value;
+	
+	var facebook = document.getElementById('facebook').value;
+	var instagram = document.getElementById('instagram').value;
+	var wechat = document.getElementById('wechat').value;
+}
+</script>
+
 <body style="background-color:orange;">
 
 <h1 style="text-align:center;"><b>Wloo Connect</b></h1>
@@ -12,9 +28,9 @@
 
 <form>
   First Name: <br>
-  <input type = "text", name = "firstname"><br>
+  <input type = "text", name = "firstname" id="firstname"><br>
   Last Name: <br>
-  <input type = "text", name = "lastname"><br>
+  <input type = "text", name = "lastname" id="lastname"><br>
 </form>
 
 <hr>
@@ -23,20 +39,20 @@
 
 <form>
   Email: <br>
-  <input type = "text", name = "email"><br>
-  Phone: <br>
-  <input type = "number", name = "phone"><br>
+  <input type = "text", name = "email" id="email"><br>
+  Phone Number: <br>
+  <input type = "number", name = "phonenumber" id="phonenumber"><br>
 </form>
 
-<p><b>Social Media</b></p>
+<p><b>Social Media Links </b></p>
 
 <form>
   Facebook: <br>
-  <input type = "text", name = "facebook"><br>
+  <input type = "text", name = "facebook" id="facebook"><br>
   Instagram: <br>
-  <input type = "text", name = "instagram"><br>
+  <input type = "text", name = "instagram" id="instagram"><br>
   Wechat: <br>
-  <input type = "text", name = "wechat"><br>
+  <input type = "text", name = "wechat" id="wechat"><br>
 </form>
 
 <hr>
