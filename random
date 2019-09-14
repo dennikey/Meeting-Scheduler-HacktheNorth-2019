@@ -12,10 +12,10 @@
 		var wechat = document.getElementById('wechat').value;
 	
 		var english = document.getElementById('english').selected;
-		var math = document.getElementById('math').value;
-		var science = document.getElementById('science').value;
+		var math = document.getElementById('math').selected;
+		var science = document.getElementById('science').selected;
 		
-		var soccer = document.getElementById('soccer').value;
-		var basketball = document.getElementById('basketball').value;
+		var soccer = document.getElementById('soccer').selected;
+		var basketball = document.getElementById('basketball').selected;
 	});
 </script>
