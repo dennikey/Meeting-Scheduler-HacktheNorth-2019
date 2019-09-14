@@ -1,0 +1,21 @@
+<script>
+	document.querySelector('#myform').addEventListener("submit", function(evt){
+		evt.preventDefault();
+		var firstname = document.getElementById('firstname').value;
+		var lastname = document.getElementById('lastname').value;
+	
+		var email = document.getElementById('email').value;
+		var phonenumber = document.getElementById('phonenumber').value;
+	
+		var facebook = document.getElementById('facebook').value;
+		var instagram = document.getElementById('instagram').value;
+		var wechat = document.getElementById('wechat').value;
+	
+		var english = document.getElementById('english').selected;
+		var math = document.getElementById('math').value;
+		var science = document.getElementById('science').value;
+		
+		var soccer = document.getElementById('soccer').value;
+		var basketball = document.getElementById('basketball').value;
+	});
+</script>
