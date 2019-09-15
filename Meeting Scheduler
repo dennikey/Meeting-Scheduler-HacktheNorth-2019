@@ -21,9 +21,19 @@ Name: <br>
 <p>Right click or hold down the control button to select multiple times!</p>
 Available Times: <br>
 <select multiple name="subjects" size="3" id="user1time">
+  <option value="8am" id="8am1">8am</option>
+  <option value="9am" id="9am1">9am</option>
+  <option value="10am" id="10am1">10am</option>
+  <option value="11am" id="11am1">11am</option>
+  <option value="12pm" id="12pm1">12pm</option>
+  <option value="1pm" id="1pm1">1pm</option>
+  <option value="2pm" id="2pm1">2pm</option>
+  <option value="3pm" id="3pm1">3pm</option>
+  <option value="4pm" id="4pm1">4pm</option>
   <option value="5pm" id="5pm1">5pm</option>
   <option value="6pm" id="6pm1">6pm</option>
   <option value="7pm" id="7pm1">7pm</option>
+  <option value="8pm" id="8pm1">8pm</option>
 </select>
 <hr>
 
@@ -36,9 +46,19 @@ Name: <br>
 <p>Right click or hold down the control button to select multiple times!</p>
 Available Times: <br>
 <select multiple name="subjects" size="3" id="user2time">
+  <option value="8am" id="8am2">8am</option>
+  <option value="9am" id="9am2">9am</option>
+  <option value="10am" id="10am2">10am</option>
+  <option value="11am" id="11am2">11am</option>
+  <option value="12pm" id="12pm2">12pm</option>
+  <option value="1pm" id="1pm2">1pm</option>
+  <option value="2pm" id="2pm2">2pm</option>
+  <option value="3pm" id="3pm2">3pm</option>
+  <option value="4pm" id="4pm2">4pm</option>
   <option value="5pm" id="5pm2">5pm</option>
   <option value="6pm" id="6pm2">6pm</option>
   <option value="7pm" id="7pm2">7pm</option>
+  <option value="8pm" id="8pm2">8pm</option>
 </select>
 <hr>
 
@@ -64,14 +84,12 @@ var a = [a0, a1, a2];
 var b = [b0, b1, b2];
 var val = "";
 
-for (var i = 0; i < 3; i++){
+for (var i = 0; i < 12; i++){
 	if ((a[i].selected && b[i].selected) && (a[i].value == b[i].value)){
 		val += a[i].value;
 		val += ' ';
-	} else {
-		return;
 	}
-document.getElementById("demo1").innerHTML = "The two of you are both free on:";
+document.getElementById("demo1").innerHTML = On Monday, the two of you are both free at:";
 document.getElementById("demo2").innerHTML = val;
 }
 }
