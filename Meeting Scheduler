@@ -19,22 +19,132 @@ Name: <br>
 <br>
 
 <p>Right click or hold down the control button to select multiple times!</p>
-Available Times: <br>
-<select multiple name="subjects" size="3" id="user1time">
-  <option value="8am" id="8am1">8am</option>
-  <option value="9am" id="9am1">9am</option>
-  <option value="10am" id="10am1">10am</option>
-  <option value="11am" id="11am1">11am</option>
-  <option value="12pm" id="12pm1">12pm</option>
-  <option value="1pm" id="1pm1">1pm</option>
-  <option value="2pm" id="2pm1">2pm</option>
-  <option value="3pm" id="3pm1">3pm</option>
-  <option value="4pm" id="4pm1">4pm</option>
-  <option value="5pm" id="5pm1">5pm</option>
-  <option value="6pm" id="6pm1">6pm</option>
-  <option value="7pm" id="7pm1">7pm</option>
-  <option value="8pm" id="8pm1">8pm</option>
-</select>
+<table style="width:20%">
+    <tr>
+        <th style="font-size:45%;">Monday</th>
+        <th style="font-size:45%;">Tuesday</th>
+        <th style="font-size:45%;">Wednesday</th>
+        <th style="font-size:45%;">Thursday</th>
+        <th style="font-size:45%;">Friday</th>
+        <th style="font-size:45%;">Saturday</th>
+        <th style="font-size:45%;">Sunday</th>
+    </tr>
+    </table>
+    
+    <select multiple name="subjects" size="13" id="user1time">
+        <option style="font-size:100%" value="8am" id="8am1">8am</option>
+        <option style="font-size:100%" value="9am" id="9am1">9am</option>
+        <option style="font-size:100%" value="10am" id="10am1">10am</option>
+        <option style="font-size:100%;" value="11am" id="11am1">11am</option>
+        <option style="font-size:100%" value="12pm" id="12pm1">12pm</option>
+        <option style="font-size:100%" value="1pm" id="1pm1">1pm</option>
+        <option style="font-size:100%" value="2pm" id="2pm1">2pm</option>
+        <option style="font-size:100%" value="3pm" id="3pm1">3pm</option>
+        <option style="font-size:100%" value="4pm" id="4pm1">4pm</option>
+        <option style="font-size:100%" value="5pm" id="5pm1">5pm</option>
+        <option style="font-size:100%" value="6pm" id="6pm1">6pm</option>
+        <option style="font-size:100%" value="7pm" id="7pm1">7pm</option>
+        <option style="font-size:100%" value="8pm" id="8pm1">8pm</option>
+    </select>
+    
+    <select multiple name="subjects" size="13" id="user1time">
+        <option style="font-size:100%" value="8am" id="8am3">8am</option>
+        <option style="font-size:100%" value="9am" id="9am3">9am</option>
+        <option style="font-size:100%" value="10am" id="10am3">10am</option>
+        <option style="font-size:100%;" value="11am" id="11am3">11am</option>
+        <option style="font-size:100%" value="12pm" id="12pm3">12pm</option>
+        <option style="font-size:100%" value="1pm" id="1pm3">1pm</option>
+        <option style="font-size:100%" value="2pm" id="2pm3">2pm</option>
+        <option style="font-size:100%" value="3pm" id="3pm3">3pm</option>
+        <option style="font-size:100%" value="4pm" id="4pm3">4pm</option>
+        <option style="font-size:100%" value="5pm" id="5pm3">5pm</option>
+        <option style="font-size:100%" value="6pm" id="6pm3">6pm</option>
+        <option style="font-size:100%" value="7pm" id="7pm3">7pm</option>
+        <option style="font-size:100%" value="8pm" id="8pm3">8pm</option>
+    </select>
+    
+    <select multiple name="subjects" size="13" id="user1time">
+        <option style="font-size:100%" value="8am" id="8am5">8am</option>
+        <option style="font-size:100%" value="9am" id="9am5">9am</option>
+        <option style="font-size:100%" value="10am" id="10am5">10am</option>
+        <option style="font-size:100%" value="11am" id="11am5">11am</option>
+        <option style="font-size:100%" value="12pm" id="12pm5">12pm</option>
+        <option style="font-size:100%" value="1pm" id="1pm5">1pm</option>
+        <option style="font-size:100%" value="2pm" id="2pm5">2pm</option>
+        <option style="font-size:100%" value="3pm" id="3pm5">3pm</option>
+        <option style="font-size:100%" value="4pm" id="4pm5">4pm</option>
+        <option style="font-size:100%" value="5pm" id="5pm5">5pm</option>
+        <option style="font-size:100%" value="6pm" id="6pm5">6pm</option>
+        <option style="font-size:100%" value="7pm" id="7pm5">7pm</option>
+        <option style="font-size:100%" value="8pm" id="8pm5">8pm</option>
+    </select>
+    
+    <select multiple name="subjects" size="13" id="user1time">
+        <option style="font-size:100%" value="8am" id="8am7">8am</option>
+        <option style="font-size:100%" value="9am" id="9am7">9am</option>
+        <option style="font-size:100%" value="10am" id="10am7">10am</option>
+        <option style="font-size:100%;" value="11am" id="11am7">11am</option>
+        <option style="font-size:100%" value="12pm" id="12pm7">12pm</option>
+        <option style="font-size:100%" value="1pm" id="1pm7">1pm</option>
+        <option style="font-size:100%" value="2pm" id="2pm7">2pm</option>
+        <option style="font-size:100%" value="3pm" id="3pm7">3pm</option>
+        <option style="font-size:100%" value="4pm" id="4pm7">4pm</option>
+        <option style="font-size:100%" value="5pm" id="5pm7">5pm</option>
+        <option style="font-size:100%" value="6pm" id="6pm7">6pm</option>
+        <option style="font-size:100%" value="7pm" id="7pm7">7pm</option>
+        <option style="font-size:100%" value="8pm" id="8pm7">8pm</option>
+    </select>
+    
+    <select multiple name="subjects" size="13" id="user1time">
+        <option style="font-size:100%" value="8am" id="8am9">8am</option>
+        <option style="font-size:100%" value="9am" id="9am9">9am</option>
+        <option style="font-size:100%" value="10am" id="10am9">10am</option>
+        <option style="font-size:100%;" value="11am" id="11am9">11am</option>
+        <option style="font-size:100%" value="12pm" id="12pm9">12pm</option>
+        <option style="font-size:100%" value="1pm" id="1pm9">1pm</option>
+        <option style="font-size:100%" value="2pm" id="2pm9">2pm</option>
+        <option style="font-size:100%" value="3pm" id="3pm9">3pm</option>
+        <option style="font-size:100%" value="4pm" id="4pm9">4pm</option>
+        <option style="font-size:100%" value="5pm" id="5pm9">5pm</option>
+        <option style="font-size:100%" value="6pm" id="6pm9">6pm</option>
+        <option style="font-size:100%" value="7pm" id="7pm9">7pm</option>
+        <option style="font-size:100%" value="8pm" id="8pm9">8pm</option>
+    </select>
+    
+    <select multiple name="subjects" size="13" id="user1time">
+        <option style="font-size:100%" value="8am" id="8am11">8am</option>
+        <option style="font-size:100%" value="9am" id="9am11">9am</option>
+        <option style="font-size:100%" value="10am" id="10am11">10am</option>
+        <option style="font-size:100%;" value="11am" id="11am11">11am</option>
+        <option style="font-size:100%" value="12pm" id="12pm11">12pm</option>
+        <option style="font-size:100%" value="1pm" id="1pm11">1pm</option>
+        <option style="font-size:100%" value="2pm" id="2pm11">2pm</option>
+        <option style="font-size:100%" value="3pm" id="3pm11">3pm</option>
+        <option style="font-size:100%" value="4pm" id="4pm11">4pm</option>
+        <option style="font-size:100%" value="5pm" id="5pm11">5pm</option>
+        <option style="font-size:100%" value="6pm" id="6pm11">6pm</option>
+        <option style="font-size:100%" value="7pm" id="7pm11">7pm</option>
+        <option style="font-size:100%" value="8pm" id="8pm11">8pm</option>
+    </select>
+
+    <select multiple name="subjects" size="13" id="user1time">
+        <option style="font-size:100%" value="8am" id="8am13">8am</option>
+        <option style="font-size:100%" value="9am" id="9am13">9am</option>
+        <option style="font-size:100%" value="10am" id="10am13">10am</option>
+        <option style="font-size:100%;" value="11am" id="11am13">11am</option>
+        <option style="font-size:100%" value="12pm" id="12pm13">12pm</option>
+        <option style="font-size:100%" value="1pm" id="1pm13">1pm</option>
+        <option style="font-size:100%" value="2pm" id="2pm13">2pm</option>
+        <option style="font-size:100%" value="3pm" id="3pm13">3pm</option>
+        <option style="font-size:100%" value="4pm" id="4pm13">4pm</option>
+        <option style="font-size:100%" value="5pm" id="5pm13">5pm</option>
+        <option style="font-size:100%" value="6pm" id="6pm13">6pm</option>
+        <option style="font-size:100%" value="7pm" id="7pm13">7pm</option>
+        <option style="font-size:100%" value="8pm" id="8pm13">8pm</option>
+    </select>
+   
+
+
 <hr>
 
 <p><b>2nd User</b></p>
@@ -45,21 +155,132 @@ Name: <br>
 
 <p>Right click or hold down the control button to select multiple times!</p>
 Available Times: <br>
-<select multiple name="subjects" size="3" id="user2time">
-  <option value="8am" id="8am2">8am</option>
-  <option value="9am" id="9am2">9am</option>
-  <option value="10am" id="10am2">10am</option>
-  <option value="11am" id="11am2">11am</option>
-  <option value="12pm" id="12pm2">12pm</option>
-  <option value="1pm" id="1pm2">1pm</option>
-  <option value="2pm" id="2pm2">2pm</option>
-  <option value="3pm" id="3pm2">3pm</option>
-  <option value="4pm" id="4pm2">4pm</option>
-  <option value="5pm" id="5pm2">5pm</option>
-  <option value="6pm" id="6pm2">6pm</option>
-  <option value="7pm" id="7pm2">7pm</option>
-  <option value="8pm" id="8pm2">8pm</option>
-</select>
+
+<table style="width:20%">
+    <tr>
+        <th style="font-size:45%;">Monday</th>
+        <th style="font-size:45%;">Tuesday</th>
+        <th style="font-size:45%;">Wednesday</th>
+        <th style="font-size:45%;">Thursday</th>
+        <th style="font-size:45%;">Friday</th>
+        <th style="font-size:45%;">Saturday</th>
+        <th style="font-size:45%;">Sunday</th>
+    </tr>
+    </table>
+    
+    <select multiple name="subjects" size="13" id="user2time">
+        <option style="font-size:100%" value="8am" id="8am2">8am</option>
+        <option style="font-size:100%" value="9am" id="9am2">9am</option>
+        <option style="font-size:100%" value="10am" id="10am2">10am</option>
+        <option style="font-size:100%;" value="11am" id="11am2">11am</option>
+        <option style="font-size:100%" value="12pm" id="12pm2">12pm</option>
+        <option style="font-size:100%" value="1pm" id="1pm2">1pm</option>
+        <option style="font-size:100%" value="2pm" id="2pm2">2pm</option>
+        <option style="font-size:100%" value="3pm" id="3pm2">3pm</option>
+        <option style="font-size:100%" value="4pm" id="4pm2">4pm</option>
+        <option style="font-size:100%" value="5pm" id="5pm2">5pm</option>
+        <option style="font-size:100%" value="6pm" id="6pm2">6pm</option>
+        <option style="font-size:100%" value="7pm" id="7pm2">7pm</option>
+        <option style="font-size:100%" value="8pm" id="8pm2">8pm</option>
+    </select>
+    
+    <select multiple name="subjects" size="13" id="user2time">
+        <option style="font-size:100%" value="8am" id="8am4">8am</option>
+        <option style="font-size:100%" value="9am" id="9am4">9am</option>
+        <option style="font-size:100%" value="10am" id="10am4">10am</option>
+        <option style="font-size:100%;" value="11am" id="11am4">11am</option>
+        <option style="font-size:100%" value="12pm" id="12pm4">12pm</option>
+        <option style="font-size:100%" value="1pm" id="1pm4">1pm</option>
+        <option style="font-size:100%" value="2pm" id="2pm4">2pm</option>
+        <option style="font-size:100%" value="3pm" id="3pm4">3pm</option>
+        <option style="font-size:100%" value="4pm" id="4pm4">4pm</option>
+        <option style="font-size:100%" value="5pm" id="5pm4">5pm</option>
+        <option style="font-size:100%" value="6pm" id="6pm4">6pm</option>
+        <option style="font-size:100%" value="7pm" id="7pm4">7pm</option>
+        <option style="font-size:100%" value="8pm" id="8pm4">8pm</option>
+    </select>
+    
+    <select multiple name="subjects" size="13" id="user2time">
+        <option style="font-size:100%" value="8am" id="8am6">8am</option>
+        <option style="font-size:100%" value="9am" id="9am6">9am</option>
+        <option style="font-size:100%" value="10am" id="10am6">10am</option>
+        <option style="font-size:100%" value="11am" id="11am6">11am</option>
+        <option style="font-size:100%" value="12pm" id="12pm6">12pm</option>
+        <option style="font-size:100%" value="1pm" id="1pm6">1pm</option>
+        <option style="font-size:100%" value="2pm" id="2pm6">2pm</option>
+        <option style="font-size:100%" value="3pm" id="3pm6">3pm</option>
+        <option style="font-size:100%" value="4pm" id="4pm6">4pm</option>
+        <option style="font-size:100%" value="5pm" id="5pm6">5pm</option>
+        <option style="font-size:100%" value="6pm" id="6pm6">6pm</option>
+        <option style="font-size:100%" value="7pm" id="7pm6">7pm</option>
+        <option style="font-size:100%" value="8pm" id="8pm6">8pm</option>
+    </select>
+    
+    <select multiple name="subjects" size="13" id="user2time">
+        <option style="font-size:100%" value="8am" id="8am8">8am</option>
+        <option style="font-size:100%" value="9am" id="9am8">9am</option>
+        <option style="font-size:100%" value="10am" id="10am8">10am</option>
+        <option style="font-size:100%;" value="11am" id="11am8">11am</option>
+        <option style="font-size:100%" value="12pm" id="12pm8">12pm</option>
+        <option style="font-size:100%" value="1pm" id="1pm8">1pm</option>
+        <option style="font-size:100%" value="2pm" id="2pm8">2pm</option>
+        <option style="font-size:100%" value="3pm" id="3pm8">3pm</option>
+        <option style="font-size:100%" value="4pm" id="4pm8">4pm</option>
+        <option style="font-size:100%" value="5pm" id="5pm8">5pm</option>
+        <option style="font-size:100%" value="6pm" id="6pm8">6pm</option>
+        <option style="font-size:100%" value="7pm" id="7pm8">7pm</option>
+        <option style="font-size:100%" value="8pm" id="8pm8">8pm</option>
+    </select>
+    
+    <select multiple name="subjects" size="13" id="user2time">
+        <option style="font-size:100%" value="8am" id="8am10">8am</option>
+        <option style="font-size:100%" value="9am" id="9am10">9am</option>
+        <option style="font-size:100%" value="10am" id="10am10">10am</option>
+        <option style="font-size:100%;" value="11am" id="11am10">11am</option>
+        <option style="font-size:100%" value="12pm" id="12pm10">12pm</option>
+        <option style="font-size:100%" value="1pm" id="1pm10">1pm</option>
+        <option style="font-size:100%" value="2pm" id="2pm10">2pm</option>
+        <option style="font-size:100%" value="3pm" id="3pm10">3pm</option>
+        <option style="font-size:100%" value="4pm" id="4pm10">4pm</option>
+        <option style="font-size:100%" value="5pm" id="5pm10">5pm</option>
+        <option style="font-size:100%" value="6pm" id="6pm10">6pm</option>
+        <option style="font-size:100%" value="7pm" id="7pm10">7pm</option>
+        <option style="font-size:100%" value="8pm" id="8pm10">8pm</option>
+    </select>
+    
+    <select multiple name="subjects" size="13" id="user2time">
+        <option style="font-size:100%" value="8am" id="8am12">8am</option>
+        <option style="font-size:100%" value="9am" id="9am12">9am</option>
+        <option style="font-size:100%" value="10am" id="10am12">10am</option>
+        <option style="font-size:100%;" value="11am" id="11am12">11am</option>
+        <option style="font-size:100%" value="12pm" id="12pm12">12pm</option>
+        <option style="font-size:100%" value="1pm" id="1pm12">1pm</option>
+        <option style="font-size:100%" value="2pm" id="2pm12">2pm</option>
+        <option style="font-size:100%" value="3pm" id="3pm12">3pm</option>
+        <option style="font-size:100%" value="4pm" id="4pm12">4pm</option>
+        <option style="font-size:100%" value="5pm" id="5pm12">5pm</option>
+        <option style="font-size:100%" value="6pm" id="6pm12">6pm</option>
+        <option style="font-size:100%" value="7pm" id="7pm12">7pm</option>
+        <option style="font-size:100%" value="8pm" id="8pm12">8pm</option>
+    </select>
+
+    <select multiple name="subjects" size="13" id="user2time">
+        <option style="font-size:100%" value="8am" id="8am14">8am</option>
+        <option style="font-size:100%" value="9am" id="9am14">9am</option>
+        <option style="font-size:100%" value="10am" id="10am14">10am</option>
+        <option style="font-size:100%;" value="11am" id="11am14">11am</option>
+        <option style="font-size:100%" value="12pm" id="12pm14">12pm</option>
+        <option style="font-size:100%" value="1pm" id="1pm14">1pm</option>
+        <option style="font-size:100%" value="2pm" id="2pm14">2pm</option>
+        <option style="font-size:100%" value="3pm" id="3pm14">3pm</option>
+        <option style="font-size:100%" value="4pm" id="4pm14">4pm</option>
+        <option style="font-size:100%" value="5pm" id="5pm14">5pm</option>
+        <option style="font-size:100%" value="6pm" id="6pm14">6pm</option>
+        <option style="font-size:100%" value="7pm" id="7pm14">7pm</option>
+        <option style="font-size:100%" value="8pm" id="8pm14">8pm</option>
+    </select>
+
+
 <hr>
 
 </form>
@@ -84,12 +305,12 @@ var a = [a0, a1, a2];
 var b = [b0, b1, b2];
 var val = "";
 
-for (var i = 0; i < 12; i++){
+for (var i = 0; i < 3; i++){
 	if ((a[i].selected && b[i].selected) && (a[i].value == b[i].value)){
 		val += a[i].value;
 		val += ' ';
-	}
-document.getElementById("demo1").innerHTML = On Monday, the two of you are both free at:";
+	} 
+document.getElementById("demo1").innerHTML = "The two of you are both free on:";
 document.getElementById("demo2").innerHTML = val;
 }
 }
