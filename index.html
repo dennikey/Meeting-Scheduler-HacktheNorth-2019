@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
 <title>Welcome to Wloo Connect!</title>
 <script src="/__/firebase/6.6.1/firebase-app.js"></script>
 <script src="/__/firebase/init.js"></script>
 <script src="/__/firebase/6.6.1/firebase-firestore.js"></script>
+
 </head>
 
-<body style="background-color:orange;"> 
+<body style="background-color:orange;">
 
 <h1 style="text-align:center;"><b>Wloo Connect</b></h1>
 <p>Our platform helps UWaterloo students to connect with others based on mutual interests! Please fill out the information below.</p>
 <hr>
 <p><b>Name</b></p>
 
-<form id="info-form">
+<form id="info-form" action="/userinfo" method="POST">
   First Name: <br>
   <input type = "text", name = "firstname" maxlength= "20" id="firstname"><br>
   Last Name: <br>
@@ -59,13 +59,9 @@ Subjects: <br>
 
 <hr>
 
-    <input id="mysubmit" type="submit" value="Submit" />
+<input type="submit" value="submit"/>
 </form>
 
-<script> 
-firebase.initializeApp(config);
-const db = firebase.firestore()
-</script>
 <script src="index.js"></script>
 
 </body>
