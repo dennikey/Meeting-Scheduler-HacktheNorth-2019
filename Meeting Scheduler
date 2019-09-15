@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<title>Welcome to Wloo Connect!</title>
+</head>
+
+<body style="background-color:orange;"> 
+
+<h1 style="text-align:center;"><b>Wloo Connect</b></h1>
+<p>Our platform helps UWaterloo students to connect with others based on their schedules! Please fill out the information below.</p>
+<hr>
+
+<form>
+<p><b>1st User</b></p>
+
+Name: <br>
+<input type = "text", name = "Name1"><br>
+<br>
+
+<p>Right click or hold down the control button to select multiple times!</p>
+Available Times: <br>
+<select multiple name="subjects" size="3" id="user1time">
+  <option value="5pm" id="5pm1">5pm</option>
+  <option value="6pm" id="6pm1">6pm</option>
+  <option value="7pm" id="7pm1">7pm</option>
+</select>
+<hr>
+
+<p><b>2nd User</b></p>
+
+Name: <br>
+<input type = "text", name = "Name2"><br>
+<br>
+
+<p>Right click or hold down the control button to select multiple times!</p>
+Available Times: <br>
+<select multiple name="subjects" size="3" id="user2time">
+  <option value="5pm" id="5pm2">5pm</option>
+  <option value="6pm" id="6pm2">6pm</option>
+  <option value="7pm" id="7pm2">7pm</option>
+</select>
+<hr>
+
+</form>
+
+<button onclick="myFunction()">Submit</button>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+function myFunction(){
+
+var a0 = document.getElementById("5pm1");
+var a1 = document.getElementById("6pm1");
+var a2 = document.getElementById("7pm1");
+
+var b0 = document.getElementById("5pm2");
+var b1 = document.getElementById("6pm2");
+var b2 = document.getElementById("7pm2");
+
+var a = [a0, a1, a2];
+var b = [b0, b1, b2];
+var val = "";
+
+for (var i = 0; i < 3; i++){
+	if ((a[i].selected && b[i].selected) && (a[i].value == b[i].value)){
+		val += a[i].value;
+		val += ' ';
+	} else {
+		return;
+	}
+document.getElementById("demo1").innerHTML = "The two of you are both free on:";
+document.getElementById("demo2").innerHTML = val;
+}
+}
+</script>
+
+</body>
+</html>
