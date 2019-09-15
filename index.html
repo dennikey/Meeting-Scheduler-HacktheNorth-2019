@@ -1,86 +1,90 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-<title>Welcome to Wloo Connect!</title>
-</head>
+const form = document.getElementById('info-form');
 
-<script>
-function getVal()
-{
-	var firstname = document.getElementById('firstname').value;
-	var lastname = document.getElementById('lastname').value;
+form.addEventListener("submit", (e) => {
+	e.preventDefault();
 	
-	var email = document.getElementById('email').value;
-	var phonenumber = document.getElementById('phonenumber').value;
+	firebase.firestore.collection("userinfo").add({
+		firstname: firstname.value,
+		lastname: lastname.value,
+		email: email.value,
+		facebook: facebook.value,
+		instagram: instagram.value,
+		wechat: wechat.value,
+		english: english.selected,
+		math: math.selected,
+		science: science.selected,
+		soccer: soccer.selected,
+		basketball: basketball.selected
+	})	
 	
-	var facebook = document.getElementById('facebook').value;
-	var instagram = document.getElementById('instagram').value;
-	var wechat = document.getElementById('wechat').value;
+	return false;
+});
+
+/*var express = require('express');
+var app = express();
+var path = require('path');
+var bodyParser = require('body-parser');
+
+
+
+  // ...
+
+// viewed at http://localhost:8080
+/*app.use(bodyParser.urlencoded({extended : true}));
+app.set("view engine", "ejs");
+app.get('/', function(req, res) {
+    //res.render('/index.html');
+    //res.send("hello");
+    console.log('get request');
+    res.sendFile('index.html',{
+    	root: path.join(__dirname, './')
+    })
+});
+
+/*app.post('/people.html', function (req, res) {
+	// 1. Save data
+	// 2. show people page
+	console.log(req.body.firstname)
+	console.log(req.body.lastname)
+	console.log(req.body.email)
+	console.log(req.body.facebook)
+	console.log(req.body.instagram)
+	console.log(req.body.wechat)
+	console.log(req.body.english)
+	console.log(req.body.math)
+	console.log(req.body.science)
+	console.log(req.body.soccer)
+	console.log(req.body.basketball)
+
+	//db.push();
 	
-	var english = document.getElementById('english').selected;
-	var math = document.getElementById('math').value;
-	var science = document.getElementById('science').value;
-	
-	var soccer = document.getElementById('soccer').value;
-	var basketball = document.getElementById('basketball').value;
-}
-</script>
+});
 
-<body style="background-color:orange;">
+/*
+db.collection("userinfo").add({
+    firstname: "Hey",
+    lastname: "Lovelace",
+    email: "dsfadsf",
+    facebook: "fdsaf",
+    instagram: "fdsaf",
+    wechat: "fdsafas",
+    english: false,
+    math: true,
+    science: false,
+    soccer: true,
+    basketball: true
 
-<h1 style="text-align:center;"><b>Wloo Connect</b></h1>
-<p>Our platform helps UWaterloo students to connect with others based on mutual interests! Please fill out the information below.</p>
-<hr>
-<p><b>Name</b></p>
+})
+.then(function(docRef) {
+    console.log("Document written with ID: ", docRef.id);
+})
+.catch(function(error) {
+    console.error("Error adding document: ", error);
+});
+*/
 
-<form action="people.html" method="post">
-  First Name: <br>
-  <input type = "text", name = "firstname" maxlength= "20" id="firstname"><br>
-  Last Name: <br>
-  <input type = "text", name = "lastname" maxlength= "20" id="lastname"><br>
 
-<hr>
 
-<p><b>Contact Information</b></p>
-
-  Email: <br>
-  <input type = "text", name = "email" id="email"><br>
-  Phone Number: <br>
-  <input type = "text", name = "phonenumber" maxlength= "10" id="phonenumber"><br>
-
-<hr>
-
-<p><b>Social Media Links </b></p>
-
-  Facebook: <br>
-  <input type = "text", name = "facebook" id="facebook"><br>
-  Instagram: <br>
-  <input type = "text", name = "instagram" id="instagram"><br>
-  Wechat: <br>
-  <input type = "text", name = "wechat" id="wechat"><br>
-
-<hr>
-
-<p><b>Interests</b></p>
-<p>Right click or hold down the control button to select multiple interests!</p>
-
-Subjects: <br>
-<select multiple name="subjects" size="3">
-  <option value="english" id="english">English</option>
-  <option value="math" id="math">Math</option>
-  <option value="science" id="science">Science</option>
-</select>
-
-<br> Sports: <br>
-<select multiple name="sports" size="2">
-  <option value="soccer" id="soccer">Soccer</option>
-  <option value="basketball" id="basketball">Basketball</option>
-</select>
-
-<hr>
-
-    <input type="submit" value="Submit" />
-</form>
-
-</body>
-</html>
+/*app.listen(8080, () =>{
+	console.log(`server running on port 8080`)
+});
