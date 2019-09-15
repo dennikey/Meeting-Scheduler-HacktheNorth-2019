@@ -47,7 +47,7 @@ Name: <br>
         <option style="font-size:100%" value="8pm" id="8pm1">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user1time">
+    <select multiple name="subjects" size="13" id="user3time">
         <option style="font-size:100%" value="8am" id="8am3">8am</option>
         <option style="font-size:100%" value="9am" id="9am3">9am</option>
         <option style="font-size:100%" value="10am" id="10am3">10am</option>
@@ -63,7 +63,7 @@ Name: <br>
         <option style="font-size:100%" value="8pm" id="8pm3">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user1time">
+    <select multiple name="subjects" size="13" id="user5time">
         <option style="font-size:100%" value="8am" id="8am5">8am</option>
         <option style="font-size:100%" value="9am" id="9am5">9am</option>
         <option style="font-size:100%" value="10am" id="10am5">10am</option>
@@ -79,7 +79,7 @@ Name: <br>
         <option style="font-size:100%" value="8pm" id="8pm5">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user1time">
+    <select multiple name="subjects" size="13" id="user7time">
         <option style="font-size:100%" value="8am" id="8am7">8am</option>
         <option style="font-size:100%" value="9am" id="9am7">9am</option>
         <option style="font-size:100%" value="10am" id="10am7">10am</option>
@@ -95,7 +95,7 @@ Name: <br>
         <option style="font-size:100%" value="8pm" id="8pm7">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user1time">
+    <select multiple name="subjects" size="13" id="user9time">
         <option style="font-size:100%" value="8am" id="8am9">8am</option>
         <option style="font-size:100%" value="9am" id="9am9">9am</option>
         <option style="font-size:100%" value="10am" id="10am9">10am</option>
@@ -111,7 +111,7 @@ Name: <br>
         <option style="font-size:100%" value="8pm" id="8pm9">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user1time">
+    <select multiple name="subjects" size="13" id="user11time">
         <option style="font-size:100%" value="8am" id="8am11">8am</option>
         <option style="font-size:100%" value="9am" id="9am11">9am</option>
         <option style="font-size:100%" value="10am" id="10am11">10am</option>
@@ -127,7 +127,7 @@ Name: <br>
         <option style="font-size:100%" value="8pm" id="8pm11">8pm</option>
     </select>
 
-    <select multiple name="subjects" size="13" id="user1time">
+    <select multiple name="subjects" size="13" id="user13time">
         <option style="font-size:100%" value="8am" id="8am13">8am</option>
         <option style="font-size:100%" value="9am" id="9am13">9am</option>
         <option style="font-size:100%" value="10am" id="10am13">10am</option>
@@ -184,7 +184,7 @@ Available Times: <br>
         <option style="font-size:100%" value="8pm" id="8pm2">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user2time">
+    <select multiple name="subjects" size="13" id="user4time">
         <option style="font-size:100%" value="8am" id="8am4">8am</option>
         <option style="font-size:100%" value="9am" id="9am4">9am</option>
         <option style="font-size:100%" value="10am" id="10am4">10am</option>
@@ -200,7 +200,7 @@ Available Times: <br>
         <option style="font-size:100%" value="8pm" id="8pm4">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user2time">
+    <select multiple name="subjects" size="13" id="user6time">
         <option style="font-size:100%" value="8am" id="8am6">8am</option>
         <option style="font-size:100%" value="9am" id="9am6">9am</option>
         <option style="font-size:100%" value="10am" id="10am6">10am</option>
@@ -216,7 +216,7 @@ Available Times: <br>
         <option style="font-size:100%" value="8pm" id="8pm6">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user2time">
+    <select multiple name="subjects" size="13" id="user8time">
         <option style="font-size:100%" value="8am" id="8am8">8am</option>
         <option style="font-size:100%" value="9am" id="9am8">9am</option>
         <option style="font-size:100%" value="10am" id="10am8">10am</option>
@@ -232,7 +232,7 @@ Available Times: <br>
         <option style="font-size:100%" value="8pm" id="8pm8">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user2time">
+    <select multiple name="subjects" size="13" id="user10time">
         <option style="font-size:100%" value="8am" id="8am10">8am</option>
         <option style="font-size:100%" value="9am" id="9am10">9am</option>
         <option style="font-size:100%" value="10am" id="10am10">10am</option>
@@ -248,7 +248,7 @@ Available Times: <br>
         <option style="font-size:100%" value="8pm" id="8pm10">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user2time">
+    <select multiple name="subjects" size="13" id="user12time">
         <option style="font-size:100%" value="8am" id="8am12">8am</option>
         <option style="font-size:100%" value="9am" id="9am12">9am</option>
         <option style="font-size:100%" value="10am" id="10am12">10am</option>
@@ -264,7 +264,7 @@ Available Times: <br>
         <option style="font-size:100%" value="8pm" id="8pm12">8pm</option>
     </select>
 
-    <select multiple name="subjects" size="13" id="user2time">
+    <select multiple name="subjects" size="13" id="user14time">
         <option style="font-size:100%" value="8am" id="8am14">8am</option>
         <option style="font-size:100%" value="9am" id="9am14">9am</option>
         <option style="font-size:100%" value="10am" id="10am14">10am</option>
@@ -280,38 +280,117 @@ Available Times: <br>
         <option style="font-size:100%" value="8pm" id="8pm14">8pm</option>
     </select>
 
-
 <hr>
 
 </form>
 
-<button onclick="myFunction()">Submit</button>
+<button onclick="output()">Submit</button>
 
-<p id="demo1"></p>
-<p id="demo2"></p>
+<p id="demo"></p>
+<p id="demoMonday1"></p>
+<p id="demoMonday2"></p>
+<p id="demoTuesday1"></p>
+<p id="demoTuesday2"></p>
+<p id="demoWednesday1"></p>
+<p id="demoWednesday2"></p>
+<p id="demoThursday1"></p>
+<p id="demoThursday2"></p>
+<p id="demoFriday1"></p>
+<p id="demoFriday2"></p>
+<p id="demoSaturday1"></p>
+<p id="demoSaturday2"></p>
+<p id="demoSunday1"></p>
+<p id="demoSunday2"></p>
 
 <script>
-function myFunction(){
+var valMonday = "";
+var valTuesday = "";
+var valWednesday = "";
+var valThursday = "";
+var valFriday = "";
+var valSaturday = "";
+var valSunday = "";
 
-var a0 = document.getElementById("5pm1");
-var a1 = document.getElementById("6pm1");
-var a2 = document.getElementById("7pm1");
+function output(){
 
-var b0 = document.getElementById("5pm2");
-var b1 = document.getElementById("6pm2");
-var b2 = document.getElementById("7pm2");
+document.getElementById("demo").innerHTML = "The two of you are both free on the following days:";
 
-var a = [a0, a1, a2];
-var b = [b0, b1, b2];
-var val = "";
+var a1 = document.querySelectorAll("#user1time option");
+var a2 = document.querySelectorAll("#user2time option");
+var b1 = document.querySelectorAll("#user3time option");
+var b2 = document.querySelectorAll("#user4time option");
+var c1 = document.querySelectorAll("#user5time option");
+var c2 = document.querySelectorAll("#user6time option");
+var d1 = document.querySelectorAll("#user7time option");
+var d2 = document.querySelectorAll("#user8time option");
+var e1 = document.querySelectorAll("#user9time option");
+var e2 = document.querySelectorAll("#user10time option");
+var f1 = document.querySelectorAll("#user11time option");
+var f2 = document.querySelectorAll("#user12time option");
+var g1 = document.querySelectorAll("#user13time option");
+var g2 = document.querySelectorAll("#user14time option");
 
-for (var i = 0; i < 3; i++){
-	if ((a[i].selected && b[i].selected) && (a[i].value == b[i].value)){
-		val += a[i].value;
-		val += ' ';
-	} 
-document.getElementById("demo1").innerHTML = "The two of you are both free on:";
-document.getElementById("demo2").innerHTML = val;
+for (var h = 0; h < 12; h++){
+	if ((a1[h].selected && a2[h].selected) && (a1[h].value == a2[h].value)){
+		valMonday += a1[h].value;
+		valMonday += ' ';
+	}
+document.getElementById("demoMonday1").innerHTML = "Monday:";
+document.getElementById("demoMonday2").innerHTML = valMonday;
+}
+
+for (var i = 0; i < 12; i++){
+	if ((b1[i].selected && b2[i].selected) && (b1[i].value == b2[i].value)){
+		valTuesday += b1[i].value;
+		valTuesday += ' ';
+	}
+document.getElementById("demoTuesday1").innerHTML = "Tuesday:";
+document.getElementById("demoTuesday2").innerHTML = valTuesday;
+}
+
+for (var j = 0; j < 12; j++){
+	if ((c1[j].selected && c2[j].selected) && (c1[j].value == c2[j].value)){
+		valWednesday += c1[j].value;
+		valWednesday += ' ';
+	}
+document.getElementById("demoWednesday1").innerHTML = "Wednesday:";
+document.getElementById("demoWednesday2").innerHTML = valWednesday;
+}
+
+for (var k = 0; k < 12; k++){
+	if ((d1[k].selected && d2[k].selected) && (d1[k].value == d2[k].value)){
+		valThursday += d1[k].value;
+		valThursday += ' ';
+	}
+document.getElementById("demoThursday1").innerHTML = "Thursday:";
+document.getElementById("demoThursday2").innerHTML = valThursday;
+}
+
+for (var l = 0; l < 12; l++){
+	if ((e1[l].selected && e2[l].selected) && (e1[l].value == e2[l].value)){
+		valFriday += e1[l].value;
+		valFriday += ' ';
+	}
+document.getElementById("demoFriday1").innerHTML = "Friday:";
+document.getElementById("demoFriday2").innerHTML = valFriday;
+}
+
+for (var m = 0; m < 12; m++){
+	if ((f1[m].selected && f2[m].selected) && (f1[m].value == f2[m].value)){
+		valSaturday += f1[m].value;
+		valSaturday += ' ';
+	}
+document.getElementById("demoSaturday1").innerHTML = "Saturday:";
+document.getElementById("demoSaturday2").innerHTML = valSaturday;
+}
+
+for (var n = 0; n < 12; n++){
+	if ((g1[n].selected && g2[n].selected) && (g1[n].value == g2[n].value)){
+		valSunday += g1[n].value;
+		valSunday += ' ';
+	}
+document.getElementById("demoSunday1").innerHTML = "Sunday:";
+document.getElementById("demoSunday2").innerHTML = valSunday;
 }
 }
 </script>
