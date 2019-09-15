@@ -2,8 +2,17 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 var path = require('path');
-var admin = require('firebase-admin');
+var admin1 = require('firebase-admin');
 var firebase = require('firebase');
+
+
+// The Cloud Functions for Firebase SDK to create Cloud Functions and setup triggers.
+const functions = require('firebase-functions');
+
+// The Firebase Admin SDK to access the Firebase Realtime Database.
+const admin = require('firebase-admin');
+
+admin.initializeApp();
 
 var config = {
     apiKey: "AIzaSyDjkhHIpFL7PSBlTte09ywFCtZnspNooUQ",
@@ -14,6 +23,8 @@ var config = {
     messagingSenderId: "491763611401"
 };
 
+
+
 firebase.initializeApp(config);
 var db = firebase.firestore();
 
@@ -22,10 +33,16 @@ app.use(bodyParser());
 
   // ...
 // viewed at http://localhost:8080
-// app.set("view engine", "ejs");
+app.set("view engine", "ejs");
 app.get('/', function(req, res) {
 	res.render('./index.html')
 });
+
+app.get('/people', function(req, res) {
+	//req.params.id
+	res.render('./people')
+});
+
 
 app.post('/userinfo', function (req, res) {
 	// 1. Save data
@@ -47,16 +64,7 @@ app.post('/userinfo', function (req, res) {
 	.catch(function(error) {
     	console.error("Error adding document: ", error);
 	});
-	// console.log(req.body.lastname)
-	// console.log(req.body.email)
-	// console.log(req.body.phonenumber)
-	// console.log(req.body.facebook)
-	// console.log(req.body.instagram)
-	// console.log(req.body.wechat)
-	// console.log(req.body.science)
-	// console.log(req.body.soccer)
-	// console.log(req.body.basketball)
-	//db.push();
+	res.redirect('/people.html');
 	res.end();
 });
 
