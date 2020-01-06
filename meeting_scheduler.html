@@ -2,37 +2,75 @@
 <html lang="en-US">
 
 <head>
-<title>Welcome to Wloo Connect!</title>
+<title>Welcome to Meeting Scheduler!</title>
+<link href="https://fonts.googleapis.com/css?family=Courier+Prime|EB+Garamond&display=swap" rel="stylesheet">
+<style>
+.submitButton {
+  background-color: #87CEFA;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Courier Prime', monospace;
+}
+
+.header{
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+}
+
+.description{
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+    font-size: 128%;
+}
+
+.interface{
+    background: rgb(183,180,238);
+    background: linear-gradient(90deg, rgba(183,180,238,1) 0%, rgba(169,169,249,1) 51%, rgba(189,240,250,1) 100%);
+}
+
+.title1, .title2, .name1, .name2, .reminder1, .reminder2{
+    font-family: 'EB Garamond', serif;
+    font-size: 128%;
+}
+
+</style>
+
 </head>
 
-<body style="background-color:orange;"> 
+<body class="interface"> 
 
-<h1 style="text-align:center;"><b>Wloo Connect</b></h1>
-<p>Our platform helps UWaterloo students to connect with others based on their schedules! Please fill out the information below.</p>
+<h1 class="header"><b>Meeting Scheduler</b></h1>
+<p class="description">Input your available time slots below and see what time is best for both of you to schedule a meeting!</p>
 <hr>
 
+<center>
 <form>
-<p><b>1st User</b></p>
+<p class="name1"><b class="title1">1st User</b></p>
 
-Name: <br>
+Name: 
 <input type = "text", name = "Name1"><br>
 <br>
 
-<p>Right click or hold down the control button to select multiple times!</p>
-<table style="width:20%">
+<table style="width:70%">
     <tr>
-        <th style="font-size:45%;">Monday</th>
-        <th style="font-size:45%;">Tuesday</th>
-        <th style="font-size:45%;">Wednesday</th>
-        <th style="font-size:45%;">Thursday</th>
-        <th style="font-size:45%;">Friday</th>
-        <th style="font-size:45%;">Saturday</th>
-        <th style="font-size:45%;">Sunday</th>
+        <th style="font-size:100%; font-family: 'EB Garamond', serif; position: relative;right: 10px;">Monday</th>
+        <th style="font-size:100%; font-family: 'EB Garamond', serif;">Tuesday</th>
+        <th style="font-size:100%; font-family: 'EB Garamond', serif; position: relative;right: 20px;">Wednesday</th>
+        <th style="font-size:100%; font-family: 'EB Garamond', serif; position: relative;right: 50px;">Thursday</th>
+        <th style="font-size:100%; font-family: 'EB Garamond', serif; position: relative;right: 30px;">Friday</th>
+        <th style="font-size:100%; font-family: 'EB Garamond', serif;">Saturday</th>
+        <th style="font-size:100%; font-family: 'EB Garamond', serif;">Sunday</th>
     </tr>
     </table>
     
-    <select multiple name="subjects" size="13" id="user1time">
-        <option style="font-size:100%" value="8am" id="8am1">8am</option>
+    <select multiple name="subjects" size="13" id="user1time" style="width:10%">
+        <option style="font-size:100%" value="8am" id="8am1" >8am</option>
         <option style="font-size:100%" value="9am" id="9am1">9am</option>
         <option style="font-size:100%" value="10am" id="10am1">10am</option>
         <option style="font-size:100%;" value="11am" id="11am1">11am</option>
@@ -47,7 +85,7 @@ Name: <br>
         <option style="font-size:100%" value="8pm" id="8pm1">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user3time">
+    <select multiple name="subjects" size="13" id="user3time" style="width:10%">
         <option style="font-size:100%" value="8am" id="8am3">8am</option>
         <option style="font-size:100%" value="9am" id="9am3">9am</option>
         <option style="font-size:100%" value="10am" id="10am3">10am</option>
@@ -63,7 +101,7 @@ Name: <br>
         <option style="font-size:100%" value="8pm" id="8pm3">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user5time">
+    <select multiple name="subjects" size="13" id="user5time" style="width:10%">
         <option style="font-size:100%" value="8am" id="8am5">8am</option>
         <option style="font-size:100%" value="9am" id="9am5">9am</option>
         <option style="font-size:100%" value="10am" id="10am5">10am</option>
@@ -79,7 +117,7 @@ Name: <br>
         <option style="font-size:100%" value="8pm" id="8pm5">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user7time">
+    <select multiple name="subjects" size="13" id="user7time" style="width:10%">
         <option style="font-size:100%" value="8am" id="8am7">8am</option>
         <option style="font-size:100%" value="9am" id="9am7">9am</option>
         <option style="font-size:100%" value="10am" id="10am7">10am</option>
@@ -95,7 +133,7 @@ Name: <br>
         <option style="font-size:100%" value="8pm" id="8pm7">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user9time">
+    <select multiple name="subjects" size="13" id="user9time" style="width:10%">
         <option style="font-size:100%" value="8am" id="8am9">8am</option>
         <option style="font-size:100%" value="9am" id="9am9">9am</option>
         <option style="font-size:100%" value="10am" id="10am9">10am</option>
@@ -111,7 +149,7 @@ Name: <br>
         <option style="font-size:100%" value="8pm" id="8pm9">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user11time">
+    <select multiple name="subjects" size="13" id="user11time" style="width:10%">
         <option style="font-size:100%" value="8am" id="8am11">8am</option>
         <option style="font-size:100%" value="9am" id="9am11">9am</option>
         <option style="font-size:100%" value="10am" id="10am11">10am</option>
@@ -127,7 +165,7 @@ Name: <br>
         <option style="font-size:100%" value="8pm" id="8pm11">8pm</option>
     </select>
 
-    <select multiple name="subjects" size="13" id="user13time">
+    <select multiple name="subjects" size="13" id="user13time" style="width:10%">
         <option style="font-size:100%" value="8am" id="8am13">8am</option>
         <option style="font-size:100%" value="9am" id="9am13">9am</option>
         <option style="font-size:100%" value="10am" id="10am13">10am</option>
@@ -142,33 +180,37 @@ Name: <br>
         <option style="font-size:100%" value="7pm" id="7pm13">7pm</option>
         <option style="font-size:100%" value="8pm" id="8pm13">8pm</option>
     </select>
-   
 
 
+<br>
+
+<p class="reminder1">Right click or hold down the control button to select multiple times!</p>
+
+<br>
 <hr>
 
-<p><b>2nd User</b></p>
+<p class="name2"><b class="title2">2nd User</b></p>
 
-Name: <br>
+Name: 
 <input type = "text", name = "Name2"><br>
 <br>
 
-<p>Right click or hold down the control button to select multiple times!</p>
-Available Times: <br>
 
-<table style="width:20%">
+
+
+<table style="width:70%">
     <tr>
-        <th style="font-size:45%;">Monday</th>
-        <th style="font-size:45%;">Tuesday</th>
-        <th style="font-size:45%;">Wednesday</th>
-        <th style="font-size:45%;">Thursday</th>
-        <th style="font-size:45%;">Friday</th>
-        <th style="font-size:45%;">Saturday</th>
-        <th style="font-size:45%;">Sunday</th>
+        <th style="font-size:100%;font-family: 'EB Garamond', serif; position: relative;right: 10px;">Monday</th>
+        <th style="font-size:100%;font-family: 'EB Garamond', serif;">Tuesday</th>
+        <th style="font-size:100%;font-family: 'EB Garamond', serif; position: relative;right: 20px;" >Wednesday</th>
+        <th style="font-size:100%;font-family: 'EB Garamond', serif; position: relative;right: 50px;">Thursday</th>
+        <th style="font-size:100%;font-family: 'EB Garamond', serif; position: relative;right: 30px;">Friday</th>
+        <th style="font-size:100%;font-family: 'EB Garamond', serif;">Saturday</th>
+        <th style="font-size:100%;font-family: 'EB Garamond', serif;">Sunday</th>
     </tr>
     </table>
     
-    <select multiple name="subjects" size="13" id="user2time">
+    <select multiple name="subjects" size="13" id="user2time" style="width:10%">
         <option style="font-size:100%" value="8am" id="8am2">8am</option>
         <option style="font-size:100%" value="9am" id="9am2">9am</option>
         <option style="font-size:100%" value="10am" id="10am2">10am</option>
@@ -184,7 +226,7 @@ Available Times: <br>
         <option style="font-size:100%" value="8pm" id="8pm2">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user4time">
+    <select multiple name="subjects" size="13" id="user4time" style="width:10%">
         <option style="font-size:100%" value="8am" id="8am4">8am</option>
         <option style="font-size:100%" value="9am" id="9am4">9am</option>
         <option style="font-size:100%" value="10am" id="10am4">10am</option>
@@ -200,7 +242,7 @@ Available Times: <br>
         <option style="font-size:100%" value="8pm" id="8pm4">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user6time">
+    <select multiple name="subjects" size="13" id="user6time" style="width:10%">
         <option style="font-size:100%" value="8am" id="8am6">8am</option>
         <option style="font-size:100%" value="9am" id="9am6">9am</option>
         <option style="font-size:100%" value="10am" id="10am6">10am</option>
@@ -216,7 +258,7 @@ Available Times: <br>
         <option style="font-size:100%" value="8pm" id="8pm6">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user8time">
+    <select multiple name="subjects" size="13" id="user8time" style="width:10%">
         <option style="font-size:100%" value="8am" id="8am8">8am</option>
         <option style="font-size:100%" value="9am" id="9am8">9am</option>
         <option style="font-size:100%" value="10am" id="10am8">10am</option>
@@ -232,7 +274,7 @@ Available Times: <br>
         <option style="font-size:100%" value="8pm" id="8pm8">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user10time">
+    <select multiple name="subjects" size="13" id="user10time" style="width:10%">
         <option style="font-size:100%" value="8am" id="8am10">8am</option>
         <option style="font-size:100%" value="9am" id="9am10">9am</option>
         <option style="font-size:100%" value="10am" id="10am10">10am</option>
@@ -248,7 +290,7 @@ Available Times: <br>
         <option style="font-size:100%" value="8pm" id="8pm10">8pm</option>
     </select>
     
-    <select multiple name="subjects" size="13" id="user12time">
+    <select multiple name="subjects" size="13" id="user12time" style="width:10%">
         <option style="font-size:100%" value="8am" id="8am12">8am</option>
         <option style="font-size:100%" value="9am" id="9am12">9am</option>
         <option style="font-size:100%" value="10am" id="10am12">10am</option>
@@ -264,7 +306,7 @@ Available Times: <br>
         <option style="font-size:100%" value="8pm" id="8pm12">8pm</option>
     </select>
 
-    <select multiple name="subjects" size="13" id="user14time">
+    <select multiple name="subjects" size="13" id="user14time" style="width:10%">
         <option style="font-size:100%" value="8am" id="8am14">8am</option>
         <option style="font-size:100%" value="9am" id="9am14">9am</option>
         <option style="font-size:100%" value="10am" id="10am14">10am</option>
@@ -279,27 +321,34 @@ Available Times: <br>
         <option style="font-size:100%" value="7pm" id="7pm14">7pm</option>
         <option style="font-size:100%" value="8pm" id="8pm14">8pm</option>
     </select>
+<br>
 
+<p class="reminder2">Right click or hold down the control button to select multiple times!</p>
+
+<br>
 <hr>
+<br>
 
 </form>
 
-<button onclick="output()">Submit</button>
+<button onclick="output()" class="submitButton">Submit</button>
+
+</center>
 
 <p id="demo"></p>
-<p id="demoMonday1"></p>
+<p id="demoMonday1" style="font-weight:bold"></p>
 <p id="demoMonday2"></p>
-<p id="demoTuesday1"></p>
+<p id="demoTuesday1" style="font-weight:bold"></p>
 <p id="demoTuesday2"></p>
-<p id="demoWednesday1"></p>
+<p id="demoWednesday1" style="font-weight:bold"></p>
 <p id="demoWednesday2"></p>
-<p id="demoThursday1"></p>
+<p id="demoThursday1" style="font-weight:bold"></p>
 <p id="demoThursday2"></p>
-<p id="demoFriday1"></p>
+<p id="demoFriday1" style="font-weight:bold"></p>
 <p id="demoFriday2"></p>
-<p id="demoSaturday1"></p>
+<p id="demoSaturday1" style="font-weight:bold"></p>
 <p id="demoSaturday2"></p>
-<p id="demoSunday1"></p>
+<p id="demoSunday1" style="font-weight:bold"></p>
 <p id="demoSunday2"></p>
 
 <script>
